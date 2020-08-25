@@ -1,13 +1,32 @@
 {
   "name": "simplewebrtc-messenger",
   "version": "1.0.0",
-  "description": "",
+  "description": "A tutorial on building a WebRTC video chat app using SimpleWebRTC.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekatevolkova/simplewebtrc.git"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekatevolkova/simplewebtrc/issues"
+  },
+  "homepage": "https://github.com/ekatevolkova/simplewebtrc#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "handlebars": "^4.7.6",
+    "jquery": "^3.5.1",
+    "semantic-ui-css": "^2.4.1",
+    "simplewebrtc": "^3.0.2"
+  },
+  "devDependencies": {
+    "@andyet/simplewebrtc": "^1.26.2",
+    "webrtc-adapter": "^7.7.0"
+  }
 }
